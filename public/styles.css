@@ -1,0 +1,58 @@
+body {
+  background: url('bg.jpg');
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.scrabble-title {
+  background: url('blank_tile.png');
+  padding: 12px 17px;
+  margin: 5px;
+}
+
+.form-group {
+  margin-top: 25px;
+  width: 75%;
+}
+
+.form-control {
+  float: left;
+}
+
+.butt {
+  background: #887CAF;
+  color: #FFF;
+  padding: 5px 10px;
+  margin-top: -15px;
+  margin-left: 10px;
+  border-radius: 5px;
+  float: left;
+}
+
+
+/* hr styling lifted from css-tricks.com */
+
+hr {
+  float: left;
+  width: 550px;
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: -8px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+.scrabble-erb {
+  clear: both;
+}
